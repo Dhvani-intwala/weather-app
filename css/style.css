@@ -7,3 +7,47 @@
 body{
     background-color: black;
 }
+
+.card{
+    width: 90%;
+    max-width: 50%;
+    background: linear-gradient(135deg, #00feba, #f32fd6);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 35px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    color: #555;
+    padding: 10px 25px;
+    flex: 1;
+    font-size: 18px;
+    margin-right: 16px;
+    background-color: ebfffc;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 22px;
+}
