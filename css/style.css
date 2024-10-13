@@ -82,12 +82,16 @@ body{
     text-align: left;
 }
 
-.col img{
-    width: 40px;
+.humidity-img{
+    width: 50px;
     margin-right: 10px;
+}
+
+.wind-img{
+    width: 80px;
+    margin-right: 5px;
 }
 
 .humidity, .wind{
     font-size: 25px;
-    margin-top: 10px;
 }
