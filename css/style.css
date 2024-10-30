@@ -52,7 +52,19 @@ body{
     width: 22px;
 }
 
-.weather-icon{
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: none;
+    color: red;
+}
+
+.weathericon{
     width: 100px;
     margin-top: 30px;
 }
